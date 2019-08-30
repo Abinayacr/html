@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body bgcolor="orange">
+    <center>
+    <table cellpadding=10 width="450" bgcolor=white>
+    <br>
+    <h1>APPLICATION FORM</h1>
+    </center>
+
+    <form>
+        <center>
+        <font face="courier new">
+            <font size="4">
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" name="ename1" size="30" maxlength="30" value="" style="background-color:burlywood; border-color:red"></td>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" name="ename1" size="30" maxlength="30" value=""  style="background-color:burlywood; border-color:red"></td>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                        <td>Education</td>
+                        <td><input type="checkbox" name="education"  value="graduate" checked>Graduate<input type="checkbox" name="education" value="Post Graduate">Post Graduate</td>
+                </tr>
+
+                <br>
+                <br>
+                <tr>
+                        <td>Gender</td>
+                        <td><input type="radio" name="gender"  value="Female">Female<input type="radio" name="gender" value="male">Male</td>
+                </tr>
+
+                <tr>
+                    <td>State</td>
+                    <td><select name="state" tabindex="9"><option>AP</option><option>TN</option><option>UP</option><option>KAR</option></select></td>
+                </tr>
+
+                <tr>
+                    <td>Meeting Date</td>
+                    <td><input id="meeting" type="date"/</td>
+                </tr>
+
+                <tr>
+                    <td>Select Color</td>
+                    <td><input id="background-color" type="color"/</td>
+                </tr>
+
+                <tr>
+                    <td>Meeting Date&Time</td>
+                    <td><input id="mdate" type="datetime-local" name="mdate"></td>
+                </tr>
+
+                <tr>
+                    <td>WebSite</td>
+                    <td><input type="url" name="website"</td>
+                </tr>
+
+                <tr>
+                    <td>Email</td>
+                    <td><input id="email" type="email"/</td>
+                </tr>
+
+                <tr>
+                    <td>Phone</td>
+                    <td><input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" required</td>
+                </tr>
+    
+                <tr>
+                        <td colspan="2" align="center"><input type="button" value="submit" tabindex="10" onclick='processForm()'/><input type="reset" value="reset" tabindex="11"/</td>
+                </tr>
+
+
+            </font>
+        </font>
+    </center>
+    </form>
+</table>
+</body>
+</html>
+
+

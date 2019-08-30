@@ -1,0 +1,97 @@
+#header{
+    background-color:yellow;
+    color: brown;
+    text-align: center;
+    font-family:'Bernard MT';
+    padding:5px;
+}
+
+#navlinks{
+    line-height:30px; 
+    background-color: gold;
+    height:750px;
+    width:150px;
+    float: left;
+}
+
+#section{
+    width: 500px;
+    height: 550px;
+    float: left;
+    padding: 10px;
+    text-align: justify;
+    color: blue;
+    background-image: url("C:\\Users\\AbinayaC\\Documents\\img.jpg");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span{
+    color:red;
+    font-weight: bold;
+}
+
+#aside {
+    float: right;
+    background-color: goldenrod;
+    width: 300px;
+    height: 760px;
+    text-align: justify;
+}
+
+img{
+    width:300px;
+    height:350px;
+}
+
+#footer{
+    background-color: yellow;
+    color: orangered;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+
+p{
+    color: black;
+}
+
+#fig{
+    text-align: center;
+    position: left;
+    width: 200px;
+}
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: orange;
+}
+
+li a{
+    display:block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: maroon;
+    color: white;
+}
+
+.box{
+    width:1350px;
+    height: 900px;
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image: url("border.jfif") 40 30 round;
+}
+
+h1{
+    text-shadow: 5px 5px 5px green;
+}
